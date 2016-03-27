@@ -18,12 +18,12 @@ Using it is really simple:
 
        public function down()
        {
-           $this->proxy->migrateUp('mDDMMYY_HHMMSS_vendor_migration');
+           $this->proxy->migrateDown('mDDMMYY_HHMMSS_vendor_migration');
        }
 
        protected function getProxy()
        {
-          return new \bedezign\yii2\migrationproxy\MigrationProxy(['migrationPath' => '@vendor/vendor-migration-folder/migrations']);
+          return new \mattheobjornson\yii2\migrationproxy\MigrationProxy(['migrationPath' => '@vendor/vendor-migration-folder/migrations']);
        }
     }
 
