@@ -8,7 +8,7 @@
  * @copyright 2014 B&E DeZign
  */
 
-namespace bedezign\yii2\migrationproxy;
+namespace mattheobjornson\yii2\migrationproxy;
 
 
 class MigrateController extends \yii\console\controllers\MigrateController
