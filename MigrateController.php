@@ -10,6 +10,7 @@
 
 namespace mattheobjornson\yii2\migrationproxy;
 
+use yii\helpers\Console;
 
 class MigrateController extends \yii\console\controllers\MigrateController
 {
