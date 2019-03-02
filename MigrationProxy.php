@@ -10,7 +10,7 @@
 
 namespace mattheobjornson\yii2\migrationproxy;
 
-class MigrationProxy extends \yii\base\Object
+class MigrationProxy extends \yii\base\BaseObject
 {
     /** @var string         The base path for the migrations. Aliases will be resolved */
     public $migrationPath   = null;
